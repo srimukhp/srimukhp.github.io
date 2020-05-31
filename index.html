@@ -1,1 +1,309 @@
-Hello World
+<!DOCTYPE HTML>
+<!--
+	Read Only by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Srimukh Prasad Veccham</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/main2.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<section id="header">
+				<header>
+					<span class="image avatar"><img src="images/srimukh_headshot.png" alt="" /></span>
+					<h1 id="logo"><a href="#">Srimukh Prasad Veccham</a></h1>
+					<p> Theoretical & Computational Chemist</p>
+				</header>
+				<nav id="nav">
+					<ul>
+						<li><a href="#one" class="active">About</a></li>
+						<li><a href="#six">Education</a></li>						
+						<li><a href="#two">Research</a></li>
+						<li><a href="#three">Publications</a></li>
+						<li><a href="#five">Skills</a></li>
+						<!-- <li><a href="#four">Contact</a></li> -->
+						<li><a target="_blank" class="nav-link js-scroll-trigger" href="srimukh_CV.pdf">CV</a></li>
+
+					</ul>
+				</nav>
+				<footer>
+					<ul class="icons">
+						<li><a target="_blank" href="https://scholar.google.com/citations?user=9pQ0Z-wAAAAJ&hl=en" class="icon brands fa-google"><span class="label">Google Scholar</span></a></li>
+						<li><a target="_blank" href="https://www.linkedin.com/in/srimukhprasad" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
+						<li><a target="_blank" href="https://github.com/srimukhp" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						<li><a target="_blank" href="mailto:srimukh.prasad@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+				</footer>
+			</section>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- One -->
+							<section id="one">
+								<!-- <div class="image main" data-position="center">
+									<img src="images/banner.jpg" alt="" />
+								</div> -->
+								<div class="container">
+									<header class="major">
+										
+										<h3>Hello! My name is Srimukh.</h3>
+									</header>
+
+									<p>I am a graduate student advised by <a href="https://chemistry.berkeley.edu/faculty/chem/martin-head-gordon"> <b> Prof. Martin Head-Gordon </b> </a>
+										in the Department of Chemistry, University of California Berkeley. I am broadly interested in using numerical methods to solve physical problems. In my PhD, I have focused on developing and identifying methods to solve a range of problems in electronic structure theory. I am also interested in using machine learning methods to predict properties of chemical and biological systems. Before Berkeley, I graduated from Indian Institute of Technology Bombay with a Masters Degree in Chemistry. 
+
+									<br> <br>
+
+									I am expecting to graduate in December 2020. I am interested in Computational Chemist, Scientific Programming, and Machine Learning roles. Please feel free to <a href="mailto:srimukh.prasad@gmail.com"> <b> email </b> </a> me if there are roles you think I'd be a good fit for! 
+
+									</p>
+
+
+								</div>
+							</section>
+
+							<!-- Six -->
+							<section id="six">
+								<div class="container">
+									<h3>Education</h3>
+<!-- 									<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum integer lorem ipsum dolor sit amet.</p>
+ -->									<h4> University of California, Berkeley </h4>
+ 										<p id="six_fix"> PhD Candidate, Theoretical and Computational Chemistry (August 2015 - Present) </p>
+ 										<p id="six_fix2"> Advisor: Professor Martin Head-Gordon </p>
+
+ 										<h4> Indian Institute of Technology, Bombay </h4>
+ 										<p id="six_fix"> Masters of Science, Chemistry; Minor in Electrical Engineering (August 2010 - May 2015) </p>
+ 										<!-- <p id="six_fix2"> GPA: 9.3/10 </p> -->
+ 										<p id="six_fix2"> <i> Department Rank #1 </i> </p>
+									<!-- <ul class="feature-icons">
+										<li class="icon solid fa-code">Write all the code</li>
+										<li class="icon solid fa-cubes">Stack small boxes</li>
+										<li class="icon solid fa-book">Read books and stuff</li>
+										<li class="icon solid fa-coffee">Drink much coffee</li>
+										<li class="icon solid fa-bolt">Lightning bolt</li>
+										<li class="icon solid fa-users">Shadow clone technique</li>
+									</ul>	 -->							
+
+								</div>
+							</section>
+
+						<!-- Two -->
+							<section id="two">
+								<div class="container">
+									<h3>Research</h3>
+									<p>I am interested in gaining insight into physico-chemical systems using simulation and computations. 
+										<br> <br>
+
+										Along with Dr. Joonho Lee, we developed an embedded many-body expansion method for mean-field systems called the Polarized many-Body Expansion (PolBE). This method takes advantage of the locality of chemical interaction to devise a technique to compute the properties of molecular clusters at O(N<sup>2</sup>) cost instead of the traditional O(N<sup>3</sup>). This method is also can also take advantage of modern day high-performance computing architectures by parallelizing efficiently over any number of CPU cores. This technique has been implemented in C++ using Armadillo in <a href="https://www.q-chem.com"> <b> Q-Chem </b> </a>.
+
+										<br> <br>
+
+										I have also worked on various aspects of identification and assessment of materials for on-board vehicular hydrogen storage as a part of the Department of Energy’s Hydrogen Materials – Advanced Research Consortium (<a href="https://www.hymarc.org/"> <b> HyMARC </b> </a>). I have used computational methods to investigate metalated catecholates for adsorbing multiple hydrogens at a single site. Recently, I have comprehensively assessed the performance of 55 density functionals for hydrogen storage. For this purpose, I implemented an automated workflow in python using pandas for the end-to-end management of more than 20,000 data points with different metadata structures.
+
+										<br> <br>
+
+										Recently, I explored an idea to predict protein function from protein sequence information using machine learning techniques. In this work, we used the sequence-based deep learning representation of protein sequences called <a href="https://www.nature.com/articles/s41592-019-0598-1"> <b> UniRep </b> </a> to predict different properties of the protein like protein function, location of active sites, and role of active sites. Inspired multi-scale modeling in physics and chemistry, we used two different levels of representation: one for the protein sequence (UniRep) and another for the amino acid residue (<a href="https://arxiv.org/pdf/1704.01212.pdf"><u>message passing neural network </u> </a> based link to). The proposed model can identify the role of active site amino acids with 88% accuracy. This model was implemented in python using NumPy and TensorFlow. The implementation can be found on my <a href="https://github.com/srimukhp/UniRep_plusplus"> <b> Github </b> </a>.
+									</p>							
+
+								</div>
+							</section>
+
+						<!-- Three -->
+							<section id="three">
+								<div class="container">
+									<h3>Publications</h3>
+									<p>Here's a <a target="_blank" href="https://scholar.google.com/citations?user=9pQ0Z-wAAAAJ&hl=en"> <b> link </b> </a> to my Google Scholar Page. The titles below are also hyperlinked to the full papers. </p>
+									<div class="features">
+
+										<!-- <article>
+											<p><span class="image left"><img src="images/polbe.png" alt="" height=300px/></span>
+												<h4> <a target="_blank" href="https://aip.scitation.org/doi/10.1063/1.5125802"> Making Many-Body Interactions Nearly Pairwise Additive: The Polarized Many-Body Expansion Approach</h4> </a>
+											Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
+										</article> -->
+
+									<!-- 	<article>
+											<p><span class="image right"><img src="images/toc.jpeg" alt="" /></span>
+												<h4> <a target="_blank" href="https://arxiv.org/abs/2003.11691"> Density Functionals for Hydrogen Storage: Defining the H2Bind195 Test Set with Ab Initio Benchmarks and Assessment of 55 Functionals</h4> </a>
+											Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
+										</article> -->
+
+										<!-- <article>
+											<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
+											<div class="inner">
+												<h4>Variational Charge-Transfer Analysis in ALMObased Energy Decomposition Analysis </h4> 
+												<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
+											</div>
+										</article> -->
+
+										<!-- <article>
+											<p><span class="image left"><img src="images/assessment_of_strategies.jpeg" alt="" /></span>
+												<h4> <a target="_blank" href="https://pubs.rsc.org/en/content/articlehtml/2018/ee/c8ee01085d"> An assessment of strategies for the development of solid-state adsorbents for vehicular hydrogen storage</h4> </a>
+											Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
+										</article> -->
+
+										<!-- <article>
+											<a href="#" class="image"><img src="images/assessment_of_strategies.jpeg" alt="" /></a>
+											<div class="inner">
+												<h4>An assessment of strategies for the development of solid-state adsorbents for vehicular hydrogen storage</h4>
+												<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
+											</div>
+										</article> -->
+
+
+										<!-- <article>
+											<p><span class="image right"><img src="images/high_temperature.jpeg" alt="" /></span>
+												<h4> <a target="_blank" href="https://chemistry-europe.onlinelibrary.wiley.com/doi/abs/10.1002/cphc.201601215"> High-Temperature Hydrogen Storage of Multiple Molecules: Theoretical Insights from Metalated Catechols</h4> </a>
+											Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
+										</article> -->
+
+
+										<!-- <article>
+											<a href="#" class="image"><img src="images/high_temperature.jpeg" alt="" /></a>
+											<div class="inner">
+												<h4>High-Temperature Hydrogen Storage of Multiple Molecules: Theoretical Insights from Metalated Catechols</h4>
+												<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
+											</div>
+										</article> -->
+
+								<!-- 		<article>
+											<p><span class="image left"><img src="images/conformational_simulation.jpeg" alt="" height=200px /></span>
+												<h4> <a target="_blank" href="https://pubs.acs.org/doi/abs/10.1021/cg5016687"> ‘Conformational Simulation’ of Sulfamethizole by Molecular Complexation and Insights from Charge Density Analysis: Role of Intramolecular S···O Chalcogen Bonding</h4> </a>
+											Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
+											</article> -->
+
+										<article>
+											<a class="image"><img src="images/PolBE.jpg" alt="" /></a>
+											<div class="inner">
+												<h4> <a target="_blank" href="https://aip.scitation.org/doi/10.1063/1.5125802"> Making Many-Body Interactions Nearly Pairwise Additive: The Polarized Many-Body Expansion Approach</h4> </a>
+											PolBE is an embedded many-body expansion method for mean-field theories like density functional theory. PolBE removes the bottleneck step and reduces the scaling to O(N<sup>2</sup>) from O(N<sup>3</sup>).</p>
+											</div>
+										</article>											
+
+										<article>
+											<a class="image"><img src="images/toc.jpeg" alt="" /></a>
+											<div class="inner">
+												<h4> <a target="_blank" href="https://arxiv.org/abs/2003.11691"> Density Functionals for Hydrogen Storage: Defining the H2Bind195 Test Set with Ab Initio Benchmarks and Assessment of 55 Functionals</h4> </a>
+											Compilation of a comprehensive dataset along with highly accurate ab initio reference interaction energies for hydrogen storage applications. We recommend five (out of a total of 55 density functionals assessed) density functionals for predicting the interaction energies of hydrogen with binding units.</p>
+											</div>
+										</article>
+
+										<article>
+											<a class="image"><img src="images/assessment_of_strategies.jpeg" alt="" /></a>
+											<div class="inner">
+												<h4> <a target="_blank" href="https://pubs.rsc.org/en/content/articlehtml/2018/ee/c8ee01085d"> An assessment of strategies for the development of solid-state adsorbents for vehicular hydrogen storage</h4> </a>
+											A comprehensive assessment of the state of the art synthetic, analytical, and computational strategies available for making and characterizing materials for hydrogen storage.
+											</div>
+										</article>
+
+										<article>
+											<a class="image"><img src="images/high_temperature.jpeg" alt="" /></a>
+											<div class="inner">
+												<h4> <a target="_blank" href="https://chemistry-europe.onlinelibrary.wiley.com/doi/abs/10.1002/cphc.201601215"> High-Temperature Hydrogen Storage of Multiple Molecules: Theoretical Insights from Metalated Catechols</h4> </a>
+											Density functional theory was used to investigate metalated catechol decorations to UiO-66 Metal-Organic Framework for hydrogen storage. Our computations reveal that the resulting material has the potential to achieve Department of Energy’s 2020 target of 40g/L.</p>
+											</div>
+										</article>
+
+										<article>
+											<a class="image"><img src="images/conformational_simulation.jpeg" alt="" height=200px /></a>
+											<div class="inner">
+												<h4><a target="_blank" href="https://pubs.acs.org/doi/abs/10.1021/cg5016687">‘Conformational Simulation’ of Sulfamethizole by Molecular Complexation and Insights from Charge Density Analysis: Role of Intramolecular S···O Chalcogen Bonding</h4></a>
+												<p>Investigated the role of intramolecular chalcogen bonding in robustness of the conformation of sulfamethizole, a sulfonamide antibiotic.</p>
+											</div>
+										</article>
+
+									</div>
+								</div>
+							</section>
+
+								<!-- Five -->
+							<!-- <section id="five">
+								<div class="container">
+									<h3>Skills</h3>
+									<p id="skillz"> <b>I am a skilled programmer in various disciplines. I am fluent in object-oriented programming and have written production-level and optimized code in C++. I am also well-versed with various machine learning packages, including TensorFlow, Pytorch, and Sci-kit Learn. Here is a detailed list of my programming expertise: </b> </p>
+
+									<p>Programming Languages: 
+										<br> <br>
+										Python, C++, etc.
+
+										Software and Packages:
+
+										<br> <br>
+
+										Scientific Programming:
+
+										<br> <br>
+
+										Machine Learning:
+									</p>							
+
+								</div>
+
+							</section> -->
+
+							<section class="box special features" id="five">
+								<div class="container" align="left">
+							<h3>Skills</h3>
+<!-- 							<p id="skillz"> <b>I am a skilled programmer in various disciplines. I am fluent in object-oriented programming and have written production-level and optimized code in C++. I am also well-versed with various machine learning packages, including TensorFlow, Pytorch, and Sci-kit Learn. Here is a detailed list of my programming expertise: </b> </p>
+ -->
+						</div>
+						<div class="features-row" align="center">
+							<section>
+<!-- 								<span class="icon solid major fa-bolt accent2"></span>
+ -->								<h3>Scientific Programming</h3>
+								<p>Extensive production-level programming experience in Q-Chem (C++) </p>
+							</section>
+							<section>
+<!-- 								<span class="icon solid major fa-chart-area accent3"></span>
+ -->								<h3>Software & Packages</h3>
+								<p>Psi4, MRCC, Gaussian, NAMD, VMD, ChemOffice, Armadillo, Pandas, Matplotlib, SciPy, NumPy, Git </p>
+							</section>
+						</div>
+						<div class="features-row">
+							<section>
+<!-- 								<span class="icon solid major fa-cloud accent4"></span>
+ -->								<h3>Programming Languages</h3>
+								<p>Python, C++, C, SQL</p>
+							</section>
+							<section>
+<!-- 								<span class="icon solid major fa-lock accent5"></span>
+ -->								<h3>Machine Learning</h3>
+								<p>TensorFlow, PyTorch, Scikit-Learn, Deep Learning (Neural Networks, CNN, RNN) </p>
+							</section>
+						</div>
+					</section>
+
+				</div>
+
+				<!-- Footer -->
+					<section id="footer">
+						<div class="container">
+							<ul class="copyright">
+								<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
