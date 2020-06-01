@@ -1806,10 +1806,18 @@ input, select, textarea {
 
 }
 
+#pubz {
+	margin: 0;
+	padding:0;
+    line-height:30px;
+    margin-bottom: 10px;
+    font-size:15px;
+
+}
+
 #six_fix {
 	margin: 0;
 	padding:0;
-  	/*font-size:60px;*/
     line-height:30px;
     margin-bottom: 10px;
 
