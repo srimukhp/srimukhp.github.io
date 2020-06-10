@@ -2339,7 +2339,7 @@
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: #a8324c;
+		background: #731e1e;
 		color: #d2f2e9;
 		height: 100%;
 		overflow-y: auto;
@@ -2447,7 +2447,7 @@
 
 						#header > nav ul li a.active {
 							background: #fff;
-							color: #a8324c !important;
+							color: #731e1e !important;
 						}
 
 					#header > nav ul li:first-child {
@@ -2716,7 +2716,7 @@
 					}
 
 					#titleBar .toggle:before {
-						background: #a8324c;
+						background: #731e1e;
 						color: #ffffff;
 						content: '\f0c9';
 						display: block;
